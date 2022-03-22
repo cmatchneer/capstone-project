@@ -3,7 +3,6 @@ const CategoryItem = ({ category }) => {
   const { title, imageUrl } = category;
   return (
     <div className="category-container">
-      {console.log(title)}
       <div
         className="background-image"
         style={{
