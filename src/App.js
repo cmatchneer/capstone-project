@@ -1,16 +1,6 @@
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./routes/navbar/navbar-comp";
 import Home from "./routes/home/home-page";
-
-const Navbar = () => {
-  return (
-    <div>
-      <div>
-        <h1>navbar test</h1>
-      </div>
-      <Outlet />
-    </div>
-  );
-};
 
 const App = () => {
   return (
